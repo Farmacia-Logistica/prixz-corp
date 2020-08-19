@@ -1,0 +1,34 @@
+.section-solution {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	.solution-text {
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		padding-left: 5%;
+		padding-right: 2%;
+		.solution-description {
+			height: 30%;
+			h3 {
+				color: #2c336e;
+				font-size: 50px;
+			}
+			p {
+				color: #4f59b0;
+				font-weight: bold;
+				font-size: 30px;
+			}
+		}
+	}
+	.systemic-solution {
+		width: 40%;
+		display: flex;
+		flex-direction: column;
+		h3 {
+			color: #bac0f1;
+			font-size: 25px;
+			margin-top: 50px;
+		}
+	}
+}

@@ -1,10 +1,7 @@
 import React from 'react';
-import FirstSecProblem from '../../components/first-sec-problem/first-sec-problem.component';
-
-import './problem.styles.scss';
-
+import FirstSecProblem from '../../components/problem/first-sec-problem/first-sec-problem.component';
 const Problem = ({ reference }) => (
-	<div ref={reference} className="problemSection">
+	<div className="section">
 		<FirstSecProblem />
 	</div>
 );

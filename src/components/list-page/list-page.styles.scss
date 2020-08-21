@@ -1,0 +1,38 @@
+.listContainer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100vh;
+	background-color: #f9faff;
+	div {
+		padding-left: 3%;
+		align-items: center;
+		display: flex;
+		&.listTitle {
+			height: 20%;
+			background-color: #7c87ddff;
+			h1 {
+				font-size: 50px;
+				color: #f9faff;
+			}
+		}
+		&.listSubtitle {
+			height: 10%;
+			h2 {
+				color: #4f59b0;
+				font-size: 30px;
+			}
+		}
+		&.listOption {
+			flex: 1;
+			color: #2c336e;
+			align-items: baseline;
+			ul {
+				column-count: 2;
+				li {
+					font-size: 20px;
+				}
+			}
+		}
+	}
+}

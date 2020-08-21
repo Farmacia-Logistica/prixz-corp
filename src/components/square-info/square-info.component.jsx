@@ -2,19 +2,12 @@ import React from 'react';
 
 import './square-info.styles.scss';
 
-const SquareInfo = ({
-	widthText = '100%',
-	fontSize,
-	marginLeft,
-	text,
-	backgroundColor,
-	children
-}) => (
+const SquareInfo = ({ widthText = '100%', marginLeft, textAlign, backgroundColor, children }) => (
 	<div
 		className="square"
 		style={{
 			backgroundColor,
-			fontSize
+			textAlign
 		}}
 	>
 		<h3

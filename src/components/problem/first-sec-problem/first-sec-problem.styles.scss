@@ -1,0 +1,116 @@
+.firstSection {
+	flex-direction: column;
+	display: flex;
+	background-color: #f9faff;
+	width: 100%;
+	min-height: 100vh;
+	.sectionText {
+		height: 50%;
+		display: flex;
+		background-color: white;
+		.description {
+			width: 65%;
+			margin-left: 10%;
+			font-weight: bold;
+			@media only screen and (min-width: 320px) and (max-width: 480px) {
+				width: 64%;
+				margin-right: 1%;
+			}
+			h3 {
+				color: #2c336e;
+				font-size: 50px;
+				margin-bottom: 15px;
+				//size for 769px — 1024px: Small screens, laptops
+				@media only screen and (min-width: 769px) and (max-width: 1024px) {
+					font-size: 35px;
+				}
+				//320px — 480px: Mobile devices
+				@media only screen and (min-width: 320px) and (max-width: 480px) {
+					font-size: 30px;
+				}
+			}
+			p {
+				color: #2c336e;
+				font-size: 30px;
+				margin-top: 0px;
+				margin-bottom: 15px;
+				//size for 769px — 1024px: Small screens, laptops
+				@media only screen and (min-width: 769px) and (max-width: 1024px) {
+					font-size: 25px;
+					padding-right: 3%;
+				}
+				@media only screen and (max-width: 768px) {
+					padding-top: 10%;
+					font-size: 18px;
+				}
+			}
+			span {
+				color: #4f59b0;
+				@media only screen and (max-width: 768px) {
+					font-size: 14px;
+				}
+			}
+		}
+		.info {
+			width: 25%;
+			height: 80%;
+			//size for 769px — 1024px: Small screens, laptops
+			@media only screen and (min-width: 769px) and (max-width: 1024px) {
+				width: 25%;
+			}
+			@media only screen and (min-width: 320px) and (max-width: 480px) {
+				width: 25%;
+				height: 40%;
+			}
+		}
+	}
+	.sectionIcons {
+		height: 40%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: row;
+		@media only screen and (max-width: 768px) {
+			flex: 1;
+			flex-wrap: wrap;
+			height: auto;
+			padding-top: 10%;
+		}
+		.group-icon {
+			display: flex;
+			padding-left: 5%;
+			padding-right: 5%;
+			.icon {
+				padding-right: 5%;
+				img {
+					width: 42px;
+				}
+			}
+			h4 {
+				margin: 0;
+				color: #2c336e;
+			}
+			p {
+				color: #2c336e;
+			}
+		}
+	}
+	.sectionFooter {
+		height: 10%;
+		background-color: #6c78d0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: #d8dcff;
+		text-align: center;
+		@media only screen and (max-width: 768px) {
+			height: auto;
+			padding-top: 5%;
+			padding-bottom: 5%;
+		}
+		p {
+			margin: 0;
+		}
+	}
+}

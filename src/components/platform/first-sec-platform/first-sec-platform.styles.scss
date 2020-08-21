@@ -1,0 +1,73 @@
+.sectionPlatform {
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	background-color: white;
+	.sectionDescription {
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		.title {
+			height: 10%;
+			display: flex;
+			align-items: center;
+			margin-left: 10%;
+			h4 {
+				font-size: 50px;
+				color: #2c336e;
+			}
+		}
+		.icons {
+			height: 30%;
+			display: flex;
+			.vertical-text {
+				width: 10%;
+				display: flex;
+				justify-content: flex-end;
+				align-items: flex-end;
+				h1 {
+					color: #bac0f1;
+					font-size: 35px;
+					writing-mode: vertical-rl;
+					transform: rotate(180deg);
+					margin: 0px;
+				}
+			}
+			.space-icons {
+				width: 90%;
+				background-color: #f9faff;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				justify-content: space-around;
+				.group-icon {
+					h4 {
+						color: #2c336e;
+						margin: 0;
+						font-size: 30px;
+					}
+				}
+			}
+		}
+		.descriptions {
+			flex: 1;
+			display: flex;
+			margin-top: 10%;
+			justify-content: space-around;
+			.groupDescription {
+				h3 {
+					color: #2c336e;
+					font-size: 30px;
+				}
+				.activities {
+					color: #2c336e;
+				}
+			}
+		}
+	}
+	.sectionImage {
+		width: 20%;
+		background-size: cover;
+		background-position: 20% 50%;
+	}
+}

@@ -7,7 +7,7 @@ function App() {
 	let MENU_DATA = menu(React);
 	return (
 		<div>
-			<Header menuData={MENU_DATA} />
+			{/*<Header menuData={MENU_DATA} />*/}
 			{MENU_DATA.map((menu, index) => (
 				<menu.componente key={index} reference={menu.reference} />
 			))}

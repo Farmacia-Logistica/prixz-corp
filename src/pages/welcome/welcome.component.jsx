@@ -1,8 +1,7 @@
 import React from 'react';
-import FirstSecWelcome from '../../components/first-sec-welcome/first-sec-welcome.component';
-import './welcome.styles.scss';
-const Welcome = ({ reference }) => (
-	<div className="container-welcome" ref={reference}>
+import FirstSecWelcome from '../../components/welcome/first-sec-welcome/first-sec-welcome.component';
+const Welcome = () => (
+	<div className="section">
 		<FirstSecWelcome />
 	</div>
 );

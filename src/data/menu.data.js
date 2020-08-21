@@ -23,8 +23,7 @@ const MENU_DATA = (react) => {
 			name: 'Solution',
 			componente: Solution,
 			reference: react.createRef(null)
-		}
-		/*
+		} /*
 		{
 			name: 'Logistics',
 			componente: Logistics,
@@ -44,7 +43,8 @@ const MENU_DATA = (react) => {
 			name: 'Better',
 			componente: Better,
 			reference: react.createRef(null)
-		}*/
+		}
+		*/
 	];
 };
 

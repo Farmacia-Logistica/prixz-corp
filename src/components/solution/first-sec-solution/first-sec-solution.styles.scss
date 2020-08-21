@@ -1,0 +1,47 @@
+.sectionSolution {
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	background-color: white;
+	.icons {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		.title {
+			height: 15%;
+			background-color: mediumspringgreen;
+		}
+		.icon-row-1 {
+			height: 35%;
+			background-color: mediumorchid;
+		}
+
+		.icon-row-2 {
+			height: 35%;
+			background-color: mediumspringgreen;
+		}
+
+		.icon-row-3 {
+			height: 15%;
+			background-color: mediumorchid;
+		}
+	}
+	.info {
+		width: 50%;
+		background-color: mediumturquoise;
+		display: flex;
+		flex-direction: column;
+		.title {
+			height: 20%;
+			//background-color: mediumorchid;
+		}
+		.logistics {
+			height: 40%;
+			//background-color: mediumspringgreen;
+		}
+		.epharmacy {
+            height: 40%;
+			//background-color: mediumorchid;
+		}
+	}
+}

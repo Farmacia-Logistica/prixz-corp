@@ -6,9 +6,13 @@ const ListPage = ({ title, subtitle, options }) => (
 		<div className="listTitle">
 			<h1>{title}</h1>
 		</div>
-		<div className="listSubtitle">
-			<h2>{subtitle}</h2>
-		</div>
+		{subtitle ? (
+			<div className="listSubtitle">
+				<h2>{subtitle}</h2>
+			</div>
+		) : (
+			''
+		)}
 		<div className="listOption">
 			<ul>
 				{options.map((option, index) => (

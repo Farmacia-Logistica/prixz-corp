@@ -1,47 +1,110 @@
 .sectionSolution {
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
-	min-height: 100vh;
-	background-color: white;
+	background-color: #ffffff;
 	.icons {
 		width: 50%;
 		display: flex;
 		flex-direction: column;
 		.title {
-			height: 15%;
-			background-color: mediumspringgreen;
+			padding-left: 10%;
+			padding-right: 10%;
+			h1 {
+				color: #2c336e;
+				font-size: 50px;
+				margin-bottom: 0;
+			}
+			h2 {
+				color: #4f59b0;
+				font-size: 30px;
+			}
 		}
-		.icon-row-1 {
-			height: 35%;
-			background-color: mediumorchid;
+		.icons-text {
+			display: flex;
+			background-color: #f9faff;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			padding: 5%;
+			flex: 1;
+			align-items: center;
+			div {
+				width: 84px;
+			}
 		}
-
-		.icon-row-2 {
-			height: 35%;
-			background-color: mediumspringgreen;
+		.icons-v2 {
+			display: flex;
+			background-color: #4f58b0;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			align-items: center;
+			padding: 5%;
+			div {
+				width: 84px;
+				padding: 2%;
+				@media only screen and (max-width: 768px) {
+					padding: 5%;
+				}
+			}
 		}
-
-		.icon-row-3 {
-			height: 15%;
-			background-color: mediumorchid;
+		.users {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			align-items: center;
+			padding: 5%;
+		}
+		@media only screen and (max-width: 768px) {
+			width: 100%;
 		}
 	}
 	.info {
 		width: 50%;
-		background-color: mediumturquoise;
 		display: flex;
 		flex-direction: column;
 		.title {
-			height: 20%;
-			//background-color: mediumorchid;
+			padding-left: 10%;
+			padding-right: 25%;
+			h2 {
+				color: #4f59b0;
+				font-size: 30px;
+			}
+			@media only screen and (max-width: 768px) {
+				padding-right: 10%;
+			}
 		}
-		.logistics {
-			height: 40%;
-			//background-color: mediumspringgreen;
+		.card-info {
+			display: flex;
+			flex: 1;
+			padding-left: 5%;
+			.vertical-title-section {
+				display: flex;
+				align-items: center;
+				.vertical-title {
+					width: 60px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					height: 60%;
+					background-color: #7c87ddff;
+					h3 {
+						font-size: 30px;
+						writing-mode: vertical-rl;
+						transform: rotate(180deg);
+						color: white;
+					}
+				}
+			}
+			.horizontal-info {
+				display: flex;
+				align-items: center;
+				font-size: 18px;
+			}
 		}
-		.epharmacy {
-            height: 40%;
-			//background-color: mediumorchid;
+
+		@media only screen and (max-width: 768px) {
+			width: 100%;
+			min-height: 100vh;
 		}
 	}
 }

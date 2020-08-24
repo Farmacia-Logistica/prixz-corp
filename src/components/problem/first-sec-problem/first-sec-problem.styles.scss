@@ -65,35 +65,13 @@
 		}
 	}
 	.sectionIcons {
-		height: 40%;
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 		flex-direction: row;
-		@media only screen and (max-width: 768px) {
-			flex: 1;
-			flex-wrap: wrap;
-			height: auto;
-			padding-top: 10%;
-		}
-		.group-icon {
-			display: flex;
-			padding-left: 5%;
-			padding-right: 5%;
-			.icon {
-				padding-right: 5%;
-				img {
-					width: 42px;
-				}
-			}
-			h4 {
-				margin: 0;
-				color: #2c336e;
-			}
-			p {
-				color: #2c336e;
-			}
-		}
+		flex-wrap: wrap;
+		padding: 5%;
+		flex: 1;
 	}
 	.sectionFooter {
 		height: 10%;

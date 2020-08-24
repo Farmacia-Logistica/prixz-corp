@@ -23,6 +23,32 @@ const MENU_DATA = (react) => {
 			name: 'Solution',
 			componente: Solution,
 			reference: react.createRef(null)
+		},
+		{
+			name: 'Logistics',
+			componente: Logistics,
+			reference: react.createRef(null)
+		},
+		{
+			name: 'Epharmacy',
+			componente: Epharmacy,
+			reference: react.createRef(null)
+		},
+		{
+			name: 'Platform',
+			componente: Platform,
+			reference: react.createRef(null)
+		},
+		{
+			name: 'Better',
+			componente: Better,
+			reference: react.createRef(null)
+		}
+		/*
+		{
+			name: 'Platform',
+			componente: Platform,
+			reference: react.createRef(null)
 		} /*
 		{
 			name: 'Logistics',

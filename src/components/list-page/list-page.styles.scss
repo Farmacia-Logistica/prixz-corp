@@ -6,24 +6,29 @@
 	background-color: #f9faff;
 	div {
 		padding-left: 3%;
+		padding-right: 3%;
 		align-items: center;
 		display: flex;
 		&.listTitle {
-			height: 20%;
+			height: 15%;
 			background-color: #7c87ddff;
+
 			h1 {
 				font-size: 50px;
 				color: #f9faff;
 			}
 		}
 		&.listSubtitle {
-			height: 10%;
 			h2 {
 				color: #4f59b0;
 				font-size: 30px;
 			}
 		}
 		&.listOption {
+			padding-top: 3%;
+			@media only screen and (max-width: 768px) {
+				padding-top: 0%;
+			}
 			flex: 1;
 			color: #2c336e;
 			align-items: baseline;
@@ -31,6 +36,9 @@
 				column-count: 2;
 				li {
 					font-size: 20px;
+				}
+				@media only screen and (max-width: 768px) {
+					column-count: 1;
 				}
 			}
 		}

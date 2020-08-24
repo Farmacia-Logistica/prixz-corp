@@ -1,5 +1,6 @@
 import React from 'react';
 import SquareInfo from '../../square-info/square-info.component';
+import CardTitle from '../../card-title/card-title.component';
 import './first-sec-problem.styles.scss';
 import Pharmacy from '../../../assets/icons/pharmacy.png';
 import Insurance from '../../../assets/icons/insurance.png';
@@ -58,15 +59,16 @@ class FirstSecProblem extends React.Component {
 				</div>
 				<div className="sectionIcons">
 					{this.state.icons.map((icon, index) => (
-						<div key={index} className="group-icon">
-							<div className="icon">
-								<img src={icon.imageSrc} alt={icon.title} />
-							</div>
-							<div className="description">
-								<h4>{icon.title}</h4>
-								<p>{icon.text}</p>
-							</div>
-						</div>
+						<CardTitle
+							img={icon.imageSrc}
+							title={icon.title}
+							alt={icon.title}
+							orientation="vertical"
+							alignItems="center"
+							width="300px"
+							textAlign="left"
+							description={icon.text}
+						/>
 					))}
 				</div>
 				<div className="sectionFooter">

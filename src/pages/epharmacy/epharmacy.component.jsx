@@ -2,7 +2,7 @@ import React from 'react';
 import ListPage from '../../components/list-page/list-page.component';
 
 import './epharmacy.styles.scss';
-
+import { Fade } from 'react-awesome-reveal';
 class Epharmacy extends React.Component {
 	constructor() {
 		super();
@@ -65,9 +65,11 @@ class Epharmacy extends React.Component {
 
 	render() {
 		return (
-			<div className="section">
-				<ListPage {...this.state.listOptions} />
-			</div>
+			<Fade direction="right">
+				<div className="section" ref={this.props.reference}>
+					<ListPage {...this.state.listOptions} />
+				</div>
+			</Fade>
 		);
 	}
 }

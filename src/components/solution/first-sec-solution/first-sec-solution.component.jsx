@@ -49,12 +49,12 @@ class FirstSecSolution extends React.Component {
 						<h2>A systemic solution for a systemic problem</h2>
 					</div>
 					<div className="card-info">
-						<div class="vertical-title-section">
-							<div class="vertical-title">
+						<div className="vertical-title-section">
+							<div className="vertical-title">
 								<h3>Logistics</h3>
 							</div>
 						</div>
-						<div class="horizontal-info">
+						<div className="horizontal-info">
 							<ul>
 								<li>Regulatory compliant delivery service</li>
 								<li>Profitability optimization</li>
@@ -64,12 +64,12 @@ class FirstSecSolution extends React.Component {
 						</div>
 					</div>
 					<div className="card-info">
-						<div class="vertical-title-section">
-							<div class="vertical-title">
+						<div className="vertical-title-section">
+							<div className="vertical-title">
 								<h3>ePharmacy</h3>
 							</div>
 						</div>
-						<div class="horizontal-info">
+						<div className="horizontal-info">
 							<ul>
 								<li>Regulatory compliant delivery service</li>
 								<li>Profitability optimization</li>

@@ -12,6 +12,7 @@ import DtPt from '../assets/platform/dtpt.jpg';
 
 const SECTIONSDATA = [
 	{
+		direction: 'right',
 		icons: [
 			{
 				imageSrc: Pharmacy,
@@ -44,6 +45,7 @@ const SECTIONSDATA = [
 		backgroundImage: ColorfulPills
 	},
 	{
+		direction: 'left',
 		icons: [
 			{
 				imageSrc: Insurance,
@@ -63,6 +65,7 @@ const SECTIONSDATA = [
 		backgroundImage: NursePills
 	},
 	{
+		direction: 'right',
 		icons: [
 			{
 				imageSrc: PharmaCompany,
@@ -95,6 +98,7 @@ const SECTIONSDATA = [
 		backgroundImage: Experiment
 	},
 	{
+		direction: 'left',
 		icons: [
 			{
 				imageSrc: Patient,

@@ -60,6 +60,7 @@ class FirstSecProblem extends React.Component {
 				<div className="sectionIcons">
 					{this.state.icons.map((icon, index) => (
 						<CardTitle
+							key={index}
 							img={icon.imageSrc}
 							title={icon.title}
 							alt={icon.title}

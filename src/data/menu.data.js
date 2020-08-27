@@ -10,67 +10,40 @@ import Epharmacy from '../pages/epharmacy/epharmacy.component';
 const MENU_DATA = (react) => {
 	return [
 		{
-			name: 'home',
+			name: 'HOME',
 			componente: Welcome,
 			reference: react.createRef(null)
 		},
 		{
-			name: 'Problem',
+			name: 'PROBLEM',
 			componente: Problem,
 			reference: react.createRef(null)
 		},
 		{
-			name: 'Solution',
+			name: 'SOLUTION',
 			componente: Solution,
 			reference: react.createRef(null)
 		},
 		{
-			name: 'Logistics',
+			name: 'LOGISTICS',
 			componente: Logistics,
 			reference: react.createRef(null)
 		},
 		{
-			name: 'Epharmacy',
+			name: 'EPHARMACY',
 			componente: Epharmacy,
 			reference: react.createRef(null)
 		},
 		{
-			name: 'Platform',
+			name: 'PLATFORM',
 			componente: Platform,
 			reference: react.createRef(null)
 		},
 		{
-			name: 'Better',
+			name: 'BETTER',
 			componente: Better,
 			reference: react.createRef(null)
 		}
-		/*
-		{
-			name: 'Platform',
-			componente: Platform,
-			reference: react.createRef(null)
-		} /*
-		{
-			name: 'Logistics',
-			componente: Logistics,
-			reference: react.createRef(null)
-		},
-		{
-			name: 'Epharmacy',
-			componente: Epharmacy,
-			reference: react.createRef(null)
-		},
-		{
-			name: 'Platform',
-			componente: Platform,
-			reference: react.createRef(null)
-		},
-		{
-			name: 'Better',
-			componente: Better,
-			reference: react.createRef(null)
-		}
-		*/
 	];
 };
 

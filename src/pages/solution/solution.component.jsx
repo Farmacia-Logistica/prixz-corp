@@ -1,6 +1,6 @@
 import React from 'react';
 import FirstSecSolution from '../../components/solution/first-sec-solution/first-sec-solution.component';
-
+import { Slide } from 'react-awesome-reveal';
 class Solution extends React.Component {
 	constructor() {
 		super();
@@ -9,9 +9,11 @@ class Solution extends React.Component {
 
 	render() {
 		return (
-			<div className="section">
-				<FirstSecSolution />
-			</div>
+			<Slide>
+				<div className="section" ref={this.props.reference}>
+					<FirstSecSolution />
+				</div>
+			</Slide>
 		);
 	}
 }
